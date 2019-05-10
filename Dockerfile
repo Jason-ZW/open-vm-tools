@@ -33,7 +33,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Build VMware Tools
-ENV OVT_VERSION stable-10.2.5
+ENV OVT_VERSION stable-10.3.10
 
 RUN curl --retry 10 -fsSL "https://github.com/vmware/open-vm-tools/archive/${OVT_VERSION}.tar.gz" | tar -xz --strip-components=1 -C /
 
