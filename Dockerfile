@@ -1,3 +1,4 @@
+# Borrowed from https://github.com/boot2docker/boot2docker/blob/17.03.x/Dockerfile#L222-L255
 FROM debian:stable-slim
 
 RUN set -eux; \
